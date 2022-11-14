@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(31, 30, 30);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: cursive;
+}
+#pedra, #papel, #tesoura {
+    background-color: gray;
+    width: 7em;
+    height: 7em;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 0.5em ;
+    display: inline-block;
+}
+h2 {
+    color: white;
+}
+#opponent {
+    width: 7em;
+    height: 7em;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 0.5em ;
+    display: block;
+    margin: 0 auto;
+}
+#pedra:hover, #papel:hover, #tesoura:hover {
+    border: 1px solid rgb(255, 255, 255);
+}
+#imgbotao {
+    width: 6em;
+    height: 6em;
+    margin: 0 auto;
+}
+#imgpedra, #imgpapel, #imgtesoura {
+    width: 6em;
+    height: 6em;
+    margin: 0 auto;
+    display: none;
+}
+#result {
+    background-color: rgb(253, 253, 253);
+    width: 12em;
+    height: 6em;
+    margin: 0 auto;
+}
+#resultText {
+    font-weight: bold;
+    font-size: 200%;
+    position: relative;
+    top: 25%;
+    
+}
+div {
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.61);
+}
+#retry {
+    padding: 1em 8em;
+    background-color: gray;
+    color: white;
+    border-radius: 1em;
+    border: 2px solid white;
+    transition: .5s;
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#retry:hover {
+    cursor: pointer;
+    border: 2px solid black;
+    color: black;
+}

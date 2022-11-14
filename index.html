@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Questionario</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <script src="index.js" defer></script>
+        <div id="pedra" onclick="pedrar()">
+            <img id="imgbotao" src="https://images.vexels.com/media/users/3/145641/isolated/preview/30bc99162bca69bdbd27451ceeef8848-ilustracao-de-pedra-da-terra.png" alt="">
+        </div>
+
+        <div id="papel" onclick="papelar()">
+            <img id="imgbotao" src="https://imagensemoldes.com.br/wp-content/uploads/2020/08/Ilustra%C3%A7%C3%A3o-Papel-PNG.png" alt="">
+        </div>
+
+        <div id="tesoura" onclick="tesourar()">
+            <img id="imgbotao" src="http://4.bp.blogspot.com/-Mkcxxzm2NZo/UV81S32pdMI/AAAAAAAATsI/dki1MnFiqYw/s1600/Imagens-em-png-queroimagem.com+(156).png" alt="">
+        </div>
+        <h2> Oponente: </h2>
+        <div id="opponent">
+            <img id="imgpedra" src="https://images.vexels.com/media/users/3/145641/isolated/preview/30bc99162bca69bdbd27451ceeef8848-ilustracao-de-pedra-da-terra.png" alt="">
+            <img id="imgtesoura" src="http://4.bp.blogspot.com/-Mkcxxzm2NZo/UV81S32pdMI/AAAAAAAATsI/dki1MnFiqYw/s1600/Imagens-em-png-queroimagem.com+(156).png" alt="">
+            <img id="imgpapel" src="https://imagensemoldes.com.br/wp-content/uploads/2020/08/Ilustra%C3%A7%C3%A3o-Papel-PNG.png" alt="">
+        </div>
+        <div id="result">
+            <p id="resultText"></p>
+        </div>
+        <br>
+        <button id="retry" onclick="document.location.reload(true)"> Recomeçar </button>
+    </body>
+</html>
